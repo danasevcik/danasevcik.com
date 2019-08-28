@@ -17,24 +17,19 @@ class App extends Component {
         <Switch>
           <Route
             path="/dana"
-            render={routerProps => (
-              <About/>
-            )}/>
+            render={routerProps => <About/>}
+          />
           <Route
             path="/contact"
-            render={routerProps => (
-              <Contact/>
-            )}/>
+            render={routerProps => <Contact/>}
+          />
           <Route
             path="/"
-            render={routerProps => (
-              <MainPage/>
-            )}/>
-          </Switch>
-        </React.Fragment>
-
-      );
-
+            render={routerProps => <MainPage/>}
+          />
+        </Switch>
+      </React.Fragment>
+    );
   }
 }
 

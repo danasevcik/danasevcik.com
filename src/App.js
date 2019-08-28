@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch, withRouter, Link } from "react-router-dom";
 import NavBar from './NavBar.js';
+import MainPage from './MainPage.js';
 import About from './About.js';
 import './App.css';
 
@@ -11,6 +12,9 @@ class App extends Component {
       <React.Fragment>
         <div id="navbar">
           <NavBar/>
+        </div>
+        <div>
+          <MainPage />
         </div>
         <Switch>
           <Route

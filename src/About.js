@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div>I am navbar</div>
+    <div>I am the About page</div>
   )
 
 }

@@ -7,7 +7,7 @@ function Contact() {
   });
 
   return (
-    <div>I am the Contact page</div>
+    <div class='rest-of-page'>I am the Contact page</div>
   )
 
 }

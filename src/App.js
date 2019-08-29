@@ -9,21 +9,21 @@ import './App.css';
 function App() {
 
   return (
-    <div id="container">
-      <div id="navbar">
+    <div id='container'>
+      <div id='navbar'>
         <NavBar/>
       </div>
       <Switch>
         <Route
-          path="/dana"
+          path='/dana'
           render={routerProps => <About/>}
         />
         <Route
-          path="/contact"
+          path='/contact'
           render={routerProps => <Contact/>}
         />
         <Route
-          path="/"
+          path='/'
           render={routerProps => <MainPage/>}
         />
       </Switch>

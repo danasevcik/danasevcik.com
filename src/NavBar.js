@@ -5,13 +5,13 @@ function NavBar() {
   return (
     <Fragment>
       <span>I am navbar</span>
-      <Link to="/">
+      <Link to='/'>
         Home
       </Link>
-      <Link to="/dana">
+      <Link to='/dana'>
         About
       </Link>
-      <Link to="/contact">
+      <Link to='/contact'>
         Contact
       </Link>
     </Fragment>

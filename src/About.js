@@ -7,7 +7,7 @@ function About() {
   });
 
   return (
-    <div>I am the About page</div>
+    <div id="main">I am the About page</div>
   )
 
 }

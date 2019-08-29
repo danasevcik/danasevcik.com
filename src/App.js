@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Route, Switch, withRouter, Link } from "react-router-dom";
+import React from 'react';
+import { Route, Switch, withRouter } from "react-router-dom";
 import NavBar from './NavBar.js';
 import MainPage from './MainPage.js';
 import About from './About.js';
@@ -9,7 +9,7 @@ import './App.css';
 function App() {
 
   return (
-    <React.Fragment>
+    <div id="container">
       <div id="navbar">
         <NavBar/>
       </div>
@@ -27,7 +27,7 @@ function App() {
           render={routerProps => <MainPage/>}
         />
       </Switch>
-    </React.Fragment>
+    </div>
   );
 }
 

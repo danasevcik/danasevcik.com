@@ -16,7 +16,6 @@ function NavBar() {
       </Link>
     </Fragment>
   )
-
 }
 
 export default NavBar;

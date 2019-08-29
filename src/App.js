@@ -6,31 +6,29 @@ import About from './About.js';
 import Contact from './Contact.js';
 import './App.css';
 
-class App extends Component {
+function App() {
 
-  render() {
-    return (
-      <React.Fragment>
-        <div id="navbar">
-          <NavBar/>
-        </div>
-        <Switch>
-          <Route
-            path="/dana"
-            render={routerProps => <About/>}
-          />
-          <Route
-            path="/contact"
-            render={routerProps => <Contact/>}
-          />
-          <Route
-            path="/"
-            render={routerProps => <MainPage/>}
-          />
-        </Switch>
-      </React.Fragment>
-    );
-  }
+  return (
+    <React.Fragment>
+      <div id="navbar">
+        <NavBar/>
+      </div>
+      <Switch>
+        <Route
+          path="/dana"
+          render={routerProps => <About/>}
+        />
+        <Route
+          path="/contact"
+          render={routerProps => <Contact/>}
+        />
+        <Route
+          path="/"
+          render={routerProps => <MainPage/>}
+        />
+      </Switch>
+    </React.Fragment>
+  );
 }
 
 export default withRouter(App);

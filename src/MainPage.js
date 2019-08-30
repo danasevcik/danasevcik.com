@@ -7,7 +7,7 @@ function MainPage() {
   });
 
   return (
-    <div class='rest-of-page'>I am the main page</div>
+    <div>I am the main page</div>
   )
 
 }

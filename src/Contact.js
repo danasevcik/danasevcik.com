@@ -3,7 +3,18 @@ import useContactForm from './CustomHooks.js';
 
 function Contact() {
 
-  const {inputs, handleInputChange, handleSubmit} = useContactForm();
+  const sendEmail = () => {
+    alert(`
+      Email Sent!
+      Name: ${inputs.firstname} ${inputs.lastname}
+      Email: ${inputs.email}
+      Subject: ${inputs.subject}
+      Message: ${inputs.message}
+      `
+    );
+  }
+  
+  const {inputs, handleInputChange, handleSubmit} = useContactForm(sendEmail);
 
   useEffect(() => {
     document.title = 'Contact - Dana Sevcik';
@@ -23,7 +34,7 @@ function Contact() {
         <input onChange={handleInputChange} value={inputs.subject} type='text' name='subject' required/>
         <label>Message</label>
         <input onChange={handleInputChange} value={inputs.message} type='text' name='message' required/>
-        <button>Submit</button>
+        <button type='submit'>Submit</button>
       </form>
     </Fragment>
   )

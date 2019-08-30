@@ -3,7 +3,7 @@ import useContactForm from './CustomHooks.js';
 
 function Contact() {
 
-  const {inputs, handleInputChange, handleSubmit} = useSignUpForm();
+  const {inputs, handleInputChange, handleSubmit} = useContactForm();
 
   useEffect(() => {
     document.title = 'Contact - Dana Sevcik';
@@ -14,15 +14,15 @@ function Contact() {
       <div>I am the Contact page</div>
       <form onSubmit={handleSubmit}>
         <label>First Name</label>
-        <input onChange={handleInputChange} type='text' name='firstname' required/>
+        <input onChange={handleInputChange} value={inputs.firstname} type='text' name='firstname' required/>
         <label>Last Name</label>
-        <input onChange={handleInputChange} type='text' name='lastname' required/>
+        <input onChange={handleInputChange} value={inputs.lastname} type='text' name='lastname' required/>
         <label>Email Address</label>
-        <input onChange={handleInputChange} type='text' name='email' required/>
+        <input onChange={handleInputChange} value={inputs.email} type='text' name='email' required/>
         <label>Subject</label>
-        <input onChange={handleInputChange} type='text' name='subject' required/>
+        <input onChange={handleInputChange} value={inputs.subject} type='text' name='subject' required/>
         <label>Message</label>
-        <input onChange={handleInputChange} type='text' name='message' required/>
+        <input onChange={handleInputChange} value={inputs.message} type='text' name='message' required/>
         <button>Submit</button>
       </form>
     </Fragment>

@@ -1,7 +1,10 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 const useContactForm = (callback) => {
-  const [inputs, setInputs] = useState({});
+  const [inputs, setInputs] = useState({
+    
+
+  });
 
   const handleSubmit = (event) => {
     if (event) {

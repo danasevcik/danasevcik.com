@@ -13,7 +13,7 @@ function Contact() {
       `
     );
   }
-  
+
   const {inputs, handleInputChange, handleSubmit} = useContactForm(sendEmail);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ function Contact() {
   return (
     <Fragment>
       <div>I am the Contact page</div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} action="https://formspree.io/danarsevcik@gmail.com" method="POST" >
         <label>First Name</label>
         <input onChange={handleInputChange} value={inputs.firstname} type='text' name='firstname' required/>
         <label>Last Name</label>

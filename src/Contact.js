@@ -24,16 +24,11 @@ function Contact() {
     <Fragment>
       <div>I am the Contact page</div>
       <form onSubmit={handleSubmit} action="https://formspree.io/danarsevcik@gmail.com" method="POST" >
-        <label>First Name</label>
-        <input onChange={handleInputChange} value={inputs.firstname} type='text' name='firstname' required/>
-        <label>Last Name</label>
-        <input onChange={handleInputChange} value={inputs.lastname} type='text' name='lastname' required/>
-        <label>Email Address</label>
-        <input onChange={handleInputChange} value={inputs.email} type='text' name='email' required/>
-        <label>Subject</label>
-        <input onChange={handleInputChange} value={inputs.subject} type='text' name='subject' required/>
-        <label>Message</label>
-        <input onChange={handleInputChange} value={inputs.message} type='text' name='message' required/>
+        <input onChange={handleInputChange} value={inputs.firstname} type='text' name='firstname' placeholder='First Name' required/>
+        <input onChange={handleInputChange} value={inputs.lastname} type='text' name='lastname' placeholder='Last Name' required/>
+        <input onChange={handleInputChange} value={inputs.email} type='text' name='email' placeholder='Email' required/>
+        <input onChange={handleInputChange} value={inputs.subject} type='text' name='subject' placeholder='Subject' required/>
+        <textarea onChange={handleInputChange} value={inputs.message} type='text' name='message' placeholder='message' required/>
         <button type='submit'>Submit</button>
       </form>
     </Fragment>

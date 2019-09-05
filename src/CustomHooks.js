@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 
 const useContactForm = (callback) => {
   const [inputs, setInputs] = useState({
-    
-
+    firstname: '',
+    lastname: '',
+    email: '',
+    subject: '',
+    message: ''
   });
 
   const handleSubmit = (event) => {

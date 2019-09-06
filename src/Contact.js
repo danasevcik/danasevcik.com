@@ -6,7 +6,7 @@ function Contact() {
   const sendEmail = () => {
     alert(`
       Email Sent!
-      Name: ${inputs.firstname} ${inputs.lastname}
+      Name: ${inputs.name}
       Email: ${inputs._replyto}
       Subject: ${inputs.subject}
       Message: ${inputs.message}
@@ -23,12 +23,16 @@ function Contact() {
   return (
     <Fragment>
       <div>I am the Contact page</div>
+        <form action="https://formspree.io/hello@danasevcik.com" method="POST">
+          <input type="text" name="name"/>
+          <input type="email" name="_replyto"/>
+          <input type="submit" value="Send"/>
+        </form>
       <form action="https://formspree.io/hello@danasevcik.com" method="POST">
-        <input onChange={handleInputChange} value={inputs.firstname} type="text" name="firstname"placeholder='First Name' required/>
-        <input onChange={handleInputChange} value={inputs.lastname} type="text" name="lastname" placeholder='Last Name' required/>
-        <input onChange={handleInputChange} value={inputs.email} type="email" name="_replyto" placeholder='Email' required/>
-        <input onChange={handleInputChange} value={inputs.subject} type="text" name="subject" placeholder='Subject' required/>
-        <textarea onChange={handleInputChange} value={inputs.message} type="text" name='message' placeholder='message' required/>
+        <input onChange={handleInputChange} value={inputs.name} type="text" name="name" placeholder="Name" required/>
+        <input onChange={handleInputChange} value={inputs.email} type="email" name="_replyto" placeholder="Email" required/>
+        <input onChange={handleInputChange} value={inputs.subject} type="text" name="subject" placeholder="Subject" required/>
+        <textarea onChange={handleInputChange} value={inputs.message} type="text" name="message" placeholder="Message" required/>
         <input onClick={handleSubmit} type="submit" value="Send"/>
       </form>
     </Fragment>

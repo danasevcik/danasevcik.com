@@ -23,13 +23,13 @@ function Contact() {
   return (
     <Fragment>
       <div>I am the Contact page</div>
-      <form onSubmit={handleSubmit} action="https://formspree.io/danarsevcik@gmail.com" method="POST" >
+      <form action="https://formspree.io/hello@danasevcik.com" method="POST">
         <input onChange={handleInputChange} value={inputs.firstname} type='text' name='firstname' placeholder='First Name' required/>
         <input onChange={handleInputChange} value={inputs.lastname} type='text' name='lastname' placeholder='Last Name' required/>
         <input onChange={handleInputChange} value={inputs.email} type='text' name='email' placeholder='Email' required/>
         <input onChange={handleInputChange} value={inputs.subject} type='text' name='subject' placeholder='Subject' required/>
         <textarea onChange={handleInputChange} value={inputs.message} type='text' name='message' placeholder='message' required/>
-        <button type='submit'>Submit</button>
+        <button onClick={handleSubmit} type='submit'>Submit</button>
       </form>
     </Fragment>
   )

@@ -4,7 +4,7 @@ const useContactForm = (callback) => {
   const [inputs, setInputs] = useState({
     firstname: '',
     lastname: '',
-    email: '',
+    _replyto: '',
     subject: '',
     message: ''
   });

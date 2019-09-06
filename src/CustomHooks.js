@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 
 const useContactForm = (callback) => {
-  const [inputs, setInputs] = useState({
-    name: '',
+
+  const initialState = {
+    firstname: '',
+    lastname: '',
     email: '',
     subject: '',
-    message: ''
-  });
+    body: ''
+  }
+
+  const [inputs, setInputs] = useState(initialState);
 
   const handleSubmit = (event) => {
-    if (event) {
-      event.preventDefault();
-    }
     callback();
   }
 
@@ -20,10 +21,15 @@ const useContactForm = (callback) => {
     setInputs(inputs => ({...inputs, [event.target.name]: event.target.value}));
   }
 
+  const clearForm = () => {
+    setInputs(initialState)
+  }
+
   return {
     handleSubmit,
     handleInputChange,
-    inputs
+    inputs,
+    clearForm
   };
 }
 

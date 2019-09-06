@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 
 const useContactForm = (callback) => {
   const [inputs, setInputs] = useState({
-    firstname: '',
-    lastname: '',
+    name: '',
     _replyto: '',
     subject: '',
     message: ''

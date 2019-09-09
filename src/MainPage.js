@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 function MainPage() {
 
@@ -7,7 +7,10 @@ function MainPage() {
   });
 
   return (
-    <div>I am the main page</div>
+    <Fragment>
+      <div>I am the main page</div>
+      <img src="sunflower.png" alt="sunflower without background"></img>
+    </Fragment>
   )
 
 }

@@ -24,7 +24,7 @@ function Contact() {
           <input onChange={handleInputChange} value={inputs.subject} type='text' name='subject' placeholder='Subject' required/>
           <textarea onChange={handleInputChange} value={inputs.body} type='text' name='body' placeholder='Message' required/>
           <input type='text' name='_gotcha' style={{display: 'none'}}/>
-          <button><a style={{color: 'black', textDecoration: 'none'}} href={`mailto:hello@danasevcik.com?subject=${inputs.subject}&body=${inputs.body}`}>Send</a></button>
+          <a style={{color: 'black', textDecoration: 'none', border: 'solid'}} href={`mailto:hello@danasevcik.com?subject=${inputs.subject}&body=${inputs.body}%0D%0A%0D%0ACheers,%0D%0A${inputs.firstname}%20${inputs.lastname}%0D%0A${inputs.email}`}>Send</a>
         </form>
     </Fragment>
   )

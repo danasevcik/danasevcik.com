@@ -10,8 +10,8 @@ function MainPage() {
 
   return (
     <Fragment>
-      <img src='sunf_blue_sky.jpg' alt='sunflowers with blue sky' style={{height: '100vh', width: '100vw', filter: 'opacity(0.3)'}}></img>
       <div>I'm the main page</div>
+      <img style={{height: '100vh', width: '100vw', filter: 'opacity(0.8)'}} src="marble.jpg" alt="marble"></img>
     </Fragment>
   )
 

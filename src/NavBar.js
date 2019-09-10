@@ -6,13 +6,13 @@ function NavBar() {
 
   const callback = () => {
     let menu = document.getElementById('nav')
-    console.log(menu);
+    let icon = document.getElementById('menu-icon')
     if (inputs.clicked === true) {
-      console.log('show me the menu');
       menu.style.display = ''
+      icon.setAttribute('class', 'close big icon')
     } else if (inputs.clicked === false) {
-      console.log('hide the menu');
       menu.style.display = 'none'
+      icon.setAttribute('class', 'content big icon')
     }
   }
 
@@ -20,7 +20,7 @@ function NavBar() {
 
   return (
     <Fragment>
-      <i onClick={handleClick} name='clicked' value={inputs.clicked} className='align justify big icon'></i>
+      <i id='menu-icon' onClick={handleClick} name='clicked' value={inputs.clicked} className='content big icon'></i>
       <div id='nav' style={{display: 'none'}}>
         <Link to='/'>
           Home

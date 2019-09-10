@@ -6,3 +6,10 @@ body {
   width: 100vw;
   background-image: url('marble.jpg');
 }
+
+#nav {
+  width: 50vw;
+  height: 100vh;
+  background-color: white;
+
+}

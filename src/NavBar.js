@@ -8,11 +8,11 @@ function NavBar() {
     let menu = document.getElementById('nav')
     let icon = document.getElementById('menu-icon')
     if (inputs.clicked === true) {
-      menu.style.display = ''
       icon.setAttribute('class', 'close big icon')
+      menu.setAttribute('class', 'show-nav')
     } else if (inputs.clicked === false) {
-      menu.style.display = 'none'
       icon.setAttribute('class', 'content big icon')
+      menu.setAttribute('class', 'hide-nav')
     }
   }
 
@@ -21,20 +21,20 @@ function NavBar() {
   return (
     <Fragment>
       <i id='menu-icon' onClick={handleClick} name='clicked' value={inputs.clicked} className='content big icon'></i>
-      <div id='nav' style={{display: 'none'}}>
-        <Link to='/'>
+      <div id='nav'>
+        <Link to='/' class='menu-link'>
           Home
         </Link>
-        <Link to='/about-me'>
+        <Link to='/about-me' class='menu-link'>
           About
         </Link>
-        <Link to='/portfolio'>
+        <Link to='/portfolio' class='menu-link'>
           Portfolio
         </Link>
-        <Link to='/resume'>
+        <Link to='/resume' class='menu-link'>
           Resume
         </Link>
-        <Link to='/contact'>
+        <Link to='/contact' class='menu-link'>
           Contact
         </Link>
       </div>

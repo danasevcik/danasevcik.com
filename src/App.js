@@ -4,6 +4,8 @@ import NavBar from './NavBar.js';
 import MainPage from './MainPage.js';
 import About from './About.js';
 import Contact from './Contact.js';
+import Portfolio from './Portfolio.js';
+import Resume from './Resume.js';
 import './App.css';
 
 function App() {
@@ -15,12 +17,20 @@ function App() {
       </div>
       <Switch>
         <Route
-          path='/dana'
+          path='/about-me'
           render={routerProps => <About/>}
+        />
+        <Route
+          path='/portfolio'
+          render={routerProps => <Portfolio/>}
         />
         <Route
           path='/contact'
           render={routerProps => <Contact/>}
+        />
+        <Route
+          path='/resume'
+          render={routerProps => <Resume/>}
         />
         <Route
           path='/'

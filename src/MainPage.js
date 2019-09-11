@@ -15,7 +15,7 @@ function MainPage() {
         <img src='./headshot_circle.png' id='headshot'/>
         <p id='name'>Hi, I'm Dana Sevcik!</p>
         <p id='i-am'>I am a
-          <Typing>
+          <Typing id='typing'>
             <span>Developer</span>
             <Typing.Backspace count={9} delay={3000} speed={0}/>
             <Typing.Delay ms={2000}/>
@@ -25,7 +25,6 @@ function MainPage() {
             <span>Proud Woman In Tech</span>
             <Typing.Delay ms={100000000000}/>
           </Typing>
-
         </p>
         <div id='bottom-line'></div>
       </div>

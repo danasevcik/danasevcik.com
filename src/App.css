@@ -79,14 +79,17 @@ body {
 }
 
 #name {
-  padding: 2.5vh 7.5vw;
+  padding: 2.5vh 1vw;
   text-align: center;
-  font-size: 3vh;
+  font-size: 4.9vh;
+  margin: 0px;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 #i-am {
   text-align: center;
-  font-size: 2vh;
+  font-size: 3vh;
+  font-family: 'Abel', sans-serif;
 }
 
 #bottom-line {

@@ -55,13 +55,20 @@ body {
 }
 
 #headshot {
-  height: 25vh;
+  height: 30vh;
+  padding: 0vw  7.5vw;
 }
 
 #top-line {
-  border-top: 0.2vh black solid;
+  border-top: 0.1vh black solid;
   border-radius: 3em;
-  margin-bottom: 3vh;
+  margin: 7vh 0vh;
+}
+
+#bottom-line {
+  border-top: 0.1vh black solid;
+  border-radius: 3em;
+  margin: 20vh 0vh;
 }
 
 #about-page {

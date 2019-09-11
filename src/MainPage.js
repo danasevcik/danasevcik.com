@@ -11,6 +11,7 @@ function MainPage() {
       <div id='main-page'>
         <div id='top-line'></div>
         <img src='./headshot_circle.png' id='headshot'/>
+        <div id='bottom-line'></div>
       </div>
     </Fragment>
   )

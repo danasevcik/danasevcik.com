@@ -12,7 +12,7 @@ function MainPage() {
     <Fragment>
       <div id='main-page'>
         <div id='top-line'></div>
-        <div id='flex'>
+        <div class='flex'>
           <img src='./headshot_circle.png' id='headshot'/>
         </div>
         <p id='name'>Hi, I'm Dana Sevcik!</p>

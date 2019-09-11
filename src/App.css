@@ -67,7 +67,7 @@ body {
   width: 100vw;
 }
 
-#flex {
+.flex {
   display: flex;
   justify-content: center;
 }
@@ -109,7 +109,11 @@ body {
 #about-name {
   font-size: 4.9vh;
   font-family: 'Reenie Beanie', cursive;
-  margin: 7vh 0vh;
+  margin: 7vh 0vh 5vh 0vh;
+}
+
+#about-text {
+  margin: 0vh 2vh;
 }
 
 #portfolio-page {

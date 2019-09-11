@@ -7,7 +7,7 @@ function Resume() {
   });
 
   return (
-    <div>I am the Resume page</div>
+    <div id='resume-page'>I am the Resume page</div>
   )
 
 }

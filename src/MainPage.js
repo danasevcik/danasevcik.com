@@ -12,12 +12,14 @@ function MainPage() {
     <Fragment>
       <div id='main-page'>
         <div id='top-line'></div>
-        <img src='./headshot_circle.png' id='headshot'/>
+        <div id='flex'>
+          <img src='./headshot_circle.png' id='headshot'/>
+        </div>
         <p id='name'>Hi, I'm Dana Sevcik!</p>
         <p id='i-am'>I am a
           <Typing id='typing'>
             <span>Developer</span>
-            <Typing.Backspace count={9} delay={3000} speed={0}/>
+            <Typing.Backspace count={9} delay={3000} />
             <Typing.Delay ms={2000}/>
             <span>Software Engineer</span>
             <Typing.Backspace count={17} delay={3000} />

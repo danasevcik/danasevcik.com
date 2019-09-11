@@ -7,7 +7,7 @@ function Portfolio() {
   });
 
   return (
-    <div>I am the Portfolio page</div>
+    <div id='portfolio-page'>I am the Portfolio page</div>
   )
 
 }

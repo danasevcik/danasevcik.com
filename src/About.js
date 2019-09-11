@@ -7,7 +7,9 @@ function About() {
   });
 
   return (
-    <div id='about-page'>I am the About page</div>
+    <div id='about-page'>
+      <p id='about-name'>Hi, I'm Dana Sevcik!</p>
+    </div>
   )
 
 }

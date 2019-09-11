@@ -67,15 +67,19 @@ body {
   width: 100vw;
 }
 
-#headshot {
-  height: 30vh;
-  padding: 0vw 7.5vw;
+#flex {
+  display: flex;
+  justify-content: center;
 }
 
 #top-line {
   border-top: 0.1vh black solid;
   border-radius: 3em;
   margin: 7vh 0vh;
+}
+
+#headshot {
+  height: 30vh;
 }
 
 #name {
@@ -93,11 +97,29 @@ body {
 }
 
 #bottom-line {
-  border-top: 0.1vh black solid;
+  border-top: 0.2vh black solid;
   border-radius: 3em;
   margin: 7vh 0vh;
 }
 
 #about-page {
+  padding: 5vh;
+}
+
+#about-name {
+  font-size: 4.9vh;
+  font-family: 'Reenie Beanie', cursive;
+  margin: 7vh 0vh;
+}
+
+#portfolio-page {
+  padding: 5vh;
+}
+
+#resume-page {
+  padding: 5vh;
+}
+
+#contact-page {
   padding: 5vh;
 }

@@ -43,7 +43,9 @@ body {
     left: 0vw;
     box-shadow: 0vh 2vh 15vh 1vh black;
   }
-  to { left: -50vw; }
+  to {
+    left: -50vw;
+  }
 }
 
 #menu-icon {
@@ -67,7 +69,7 @@ body {
 
 #headshot {
   height: 30vh;
-  padding: 0vw  7.5vw;
+  padding: 0vw 7.5vw;
 }
 
 #top-line {
@@ -76,10 +78,16 @@ body {
   margin: 7vh 0vh;
 }
 
+#name {
+  padding: 2.5vh 7.5vw;
+  text-align: center;
+  font-size: 3vh;
+}
+
 #bottom-line {
   border-top: 0.1vh black solid;
   border-radius: 3em;
-  margin: 20vh 0vh;
+  margin: 7vh 0vh;
 }
 
 #about-page {

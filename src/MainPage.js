@@ -1,6 +1,4 @@
 import React, { Fragment, useEffect } from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
 
 function MainPage() {
 
@@ -10,7 +8,10 @@ function MainPage() {
 
   return (
     <Fragment>
-      <div>I'm the main page</div>
+      <div id='main-page'>
+        <div id='top-line'></div>
+        <img src='./headshot_circle.png' id='headshot'/>
+      </div>
     </Fragment>
   )
 

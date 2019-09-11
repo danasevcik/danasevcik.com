@@ -4,7 +4,7 @@ import useHamburgerMenu from './CustomHamburgerHook.js';
 
 function NavBar() {
 
-  const callback = () => {
+  const hamburgerMenu = () => {
     let menu = document.getElementById('nav')
     let icon = document.getElementById('menu-icon')
     if (inputs.clicked === true) {
@@ -16,25 +16,25 @@ function NavBar() {
     }
   }
 
-  const {inputs, handleClick} = useHamburgerMenu(callback);
+  const {inputs, handleClick} = useHamburgerMenu(hamburgerMenu);
 
   return (
     <Fragment>
       <i id='menu-icon' onClick={handleClick} name='clicked' value={inputs.clicked} className='content big icon'></i>
       <div id='nav'>
-        <Link to='/' class='menu-link'>
+        <Link to='/' className='menu-link' onClick={handleClick}>
           Home
         </Link>
-        <Link to='/about-me' class='menu-link'>
+        <Link to='/about-me' className='menu-link' onClick={handleClick}>
           About
         </Link>
-        <Link to='/portfolio' class='menu-link'>
+        <Link to='/portfolio' className='menu-link' onClick={handleClick}>
           Portfolio
         </Link>
-        <Link to='/resume' class='menu-link'>
+        <Link to='/resume' className='menu-link' onClick={handleClick}>
           Resume
         </Link>
-        <Link to='/contact' class='menu-link'>
+        <Link to='/contact' className='menu-link' onClick={handleClick}>
           Contact
         </Link>
       </div>

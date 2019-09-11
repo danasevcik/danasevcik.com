@@ -28,8 +28,8 @@ body {
 }
 
 @keyframes slide-in {
-  from { left: -50vw; }
-  to { left: 0vw; }
+  0% { left: -50vw; }
+  100% { left: 0vw; }
 }
 
 @keyframes slide-out {
@@ -46,4 +46,24 @@ body {
   color: black;
   display: block;
   padding: 2px;
+}
+
+#main-page {
+  padding: 5vh;
+  height: 100vh;
+  width: 100vw;
+}
+
+#headshot {
+  height: 25vh;
+}
+
+#top-line {
+  border-top: 0.2vh black solid;
+  border-radius: 3em;
+  margin-bottom: 3vh;
+}
+
+#about-page {
+  padding: 5vh;
 }

@@ -109,11 +109,24 @@ body {
 #about-name {
   font-size: 4.9vh;
   font-family: 'Reenie Beanie', cursive;
-  margin: 7vh 0vh 5vh 0vh;
+  margin: 7vh 0vh 3vh 0vh;
 }
 
 #about-text {
-  margin: 0vh 2vh;
+  margin: 0vh 2vh 5vh 2vh;
+}
+
+#slider {
+  margin-bottom: 0vh;
+}
+
+/* .carousel-pic {
+  height: 10vh;
+  width: 10vw;
+} */
+
+#buttons {
+  margin-top: 2vh;
 }
 
 #portfolio-page {
@@ -129,6 +142,11 @@ body {
 }
 
 /* flickity css */
+.flick {
+  height: 50vh;
+  width: 90vw;
+}
+
 .flickity-enabled {
   position: relative;
 }

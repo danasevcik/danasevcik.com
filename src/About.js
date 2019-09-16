@@ -61,14 +61,10 @@ function About() {
                   <Gallery photos={photo3} direction='column'/>
                 </Slide>
               </Slider>
+
               <div className="ui centered grid" id='buttons'>
-                <Dot className="circular tiny ui button" slide={0}>1</Dot>
-                <Dot className="circular tiny ui button" slide={1}>2</Dot>
-                <Dot className="circular tiny ui button" slide={2}>3</Dot>
-              </div>
-              <div className="ui centered grid" id='buttons'>
-                <ButtonBack>Back</ButtonBack>
-                <ButtonNext>Next</ButtonNext>
+                <ButtonBack className="ui black basic tiny icon button">Back</ButtonBack>
+                <ButtonNext className="ui black basic tiny icon button">Next</ButtonNext>
               </div>
             </CarouselProvider>
           </div>

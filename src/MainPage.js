@@ -1,6 +1,7 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Typing from 'react-typing-animation';
 import Cursor from './Cursor.js'
+import useHamburgerMenu from './CustomHamburgerHook.js';
 
 function MainPage() {
 
@@ -8,29 +9,41 @@ function MainPage() {
     document.title = 'Dana Sevcik';
   });
 
+  const hamburgerMenu = (e) => {
+    console.log(e);
+    let menu = document.getElementById('nav')
+    let iconButton = document.getElementById('menu-icon')
+    console.log('in mainpage', iconButton.value);
+    let icon = document.getElementById('icon')
+    icon.setAttribute('class', 'content big icon')
+    menu.setAttribute('class', 'hide-nav')
+  }
+
+  const { inputs, setInputs, handleClick, handleCloseMenu } = useHamburgerMenu(hamburgerMenu);
+
   return (
-    <Fragment>
-      <div id='main-page'>
-        <div id='top-line'></div>
-        <div class='flex'>
-          <img src='./headshot_circle.png' id='headshot'/>
+    <div onClick={handleCloseMenu} className='rest-of-page'>
+      <div id='main-page' className='rest-of-page'>
+        <div id='top-line' className='rest-of-page'></div>
+        <div className='flex rest-of-page'>
+          <img src='./headshot_circle.png' id='headshot' className='rest-of-page'/>
         </div>
-        <p id='name'>Hi, I'm Dana Sevcik!</p>
-        <p id='i-am'>I am a
-          <Typing id='typing'>
-            <span>Developer</span>
+        <p id='name' className='rest-of-page'>Hi, I'm Dana Sevcik!</p>
+        <p id='i-am' className='rest-of-page'>I am a
+          <Typing id='typing' className='rest-of-page'>
+            <span className='rest-of-page'>Developer</span>
             <Typing.Backspace count={9} delay={3000} />
             <Typing.Delay ms={2000}/>
-            <span>Software Engineer</span>
+            <span className='rest-of-page'>Software Engineer</span>
             <Typing.Backspace count={17} delay={3000} />
             <Typing.Delay ms={2000}/>
-            <span>Proud Woman In Tech</span>
+            <span className='rest-of-page'>Proud Woman In Tech</span>
             <Typing.Delay ms={100000000000}/>
           </Typing>
         </p>
-        <div id='bottom-line'></div>
+        <div id='bottom-line' className='rest-of-page'></div>
       </div>
-    </Fragment>
+    </div>
   )
 
 }

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import useHamburgerMenu from './CustomHamburgerHook.js';
 
@@ -6,21 +6,24 @@ function NavBar() {
 
   const hamburgerMenu = () => {
     let menu = document.getElementById('nav')
-    let icon = document.getElementById('menu-icon')
-    if (inputs.clicked === true) {
+    let iconButton = document.getElementById('menu-icon')
+    let icon = document.getElementById('icon')
+    if (menu.className === 'hide-nav' || inputs.clicked === true) {
       icon.setAttribute('class', 'close big icon')
       menu.setAttribute('class', 'show-nav')
-    } else if (inputs.clicked === false) {
+    } else if (menu.className === 'show-nav') {
       icon.setAttribute('class', 'content big icon')
       menu.setAttribute('class', 'hide-nav')
     }
   }
 
-  const {inputs, handleClick} = useHamburgerMenu(hamburgerMenu);
+  const {inputs, handleClick, handleCloseMenu} = useHamburgerMenu(hamburgerMenu);
 
   return (
-    <Fragment>
-      <i id='menu-icon' onClick={handleClick} name='clicked' value={inputs.clicked} className='content big icon'></i>
+    <div>
+      <button id='menu-icon' onClick={handleClick} name='clicked' value={inputs.clicked}>
+        <i id='icon' className='content big icon'></i>
+      </button>
       <div id='nav'>
         <Link to='/' className='menu-link' onClick={handleClick}>
           Home
@@ -38,7 +41,7 @@ function NavBar() {
           Contact
         </Link>
       </div>
-    </Fragment>
+    </div>
   )
 }
 

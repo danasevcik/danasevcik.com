@@ -92,7 +92,7 @@ function About() {
 
   return (
     <div id='about-page'>
-      <div class='flex'>
+      <div className='flex'>
         <p id='about-name'>Hi, I'm Dana Sevcik!</p>
       </div>
       <p id='about-text'>This is a bunch of text that i want on the about page. This is a bunch of text that i want on the about page. This is a bunch of text that i want on the about page. This is a bunch of text that i want on the about page. This is a bunch of text that i want on the about page.</p>

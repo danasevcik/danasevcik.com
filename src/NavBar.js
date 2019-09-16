@@ -6,24 +6,20 @@ function NavBar() {
 
   const hamburgerMenu = () => {
     let menu = document.getElementById('nav')
-    let iconButton = document.getElementById('menu-icon')
     let icon = document.getElementById('icon')
-    if (menu.className === 'hide-nav' || inputs.clicked === true) {
+    if (icon.className === 'content big icon') {
       icon.setAttribute('class', 'close big icon')
       menu.setAttribute('class', 'show-nav')
-    } else if (menu.className === 'show-nav') {
+    } else if (icon.className === 'close big icon') {
       icon.setAttribute('class', 'content big icon')
       menu.setAttribute('class', 'hide-nav')
     }
   }
 
-  const {inputs, handleClick, handleCloseMenu} = useHamburgerMenu(hamburgerMenu);
+  const {inputs, handleClick} = useHamburgerMenu(hamburgerMenu);
 
   return (
     <div>
-      <button id='menu-icon' onClick={handleClick} name='clicked' value={inputs.clicked}>
-        <i id='icon' className='content big icon'></i>
-      </button>
       <div id='nav'>
         <Link to='/' className='menu-link' onClick={handleClick}>
           Home

@@ -10,10 +10,8 @@ function MainPage() {
   });
 
   const hamburgerMenu = (e) => {
-    console.log(e);
     let menu = document.getElementById('nav')
     let iconButton = document.getElementById('menu-icon')
-    console.log('in mainpage', iconButton.value);
     let icon = document.getElementById('icon')
     icon.setAttribute('class', 'content big icon')
     menu.setAttribute('class', 'hide-nav')
@@ -29,7 +27,7 @@ function MainPage() {
           <img src='./headshot_circle.png' id='headshot' className='rest-of-page'/>
         </div>
         <p id='name' className='rest-of-page'>Hi, I'm Dana Sevcik!</p>
-        <p id='i-am' className='rest-of-page'>I am a
+        <p id='i-am' className='rest-of-page typing'>I am a
           <Typing id='typing' className='rest-of-page'>
             <span className='rest-of-page'>Developer</span>
             <Typing.Backspace count={9} delay={3000} />

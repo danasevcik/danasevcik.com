@@ -19,6 +19,10 @@ function Portfolio() {
 
   const { handleCloseMenu } = useHamburgerMenu(hamburgerMenu);
 
+  const openNewWindow = (url) => {
+    window.open(url)
+  }
+
   const photo0 = [
     {
       src: 'jones_beach.png',
@@ -72,7 +76,13 @@ function Portfolio() {
                     <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Frontend</a><br/>
                     <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Backend</a><br/>
                   </div>
-                  <Gallery photos={photo0} direction="column" className='rest-of-page'/>
+                  <iframe className='rest-of-page youtube-vid'
+                    onClick={() => openNewWindow('https://www.youtube.com/watch?v=GezKCrnQ5iE')}
+                    src="https://giphy.com/embed/ZFQqfxChY68AayJDNo"
+                    frameBorder="0"
+                    >
+                  </iframe>
+
                 </Slide>
                 <Slide index={1} className='photo rest-of-page'>
                   <p className='project-text rest-of-page'>example text example text example text</p>

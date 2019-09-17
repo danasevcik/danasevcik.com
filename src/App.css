@@ -180,7 +180,6 @@ a, button {
   height: 40vh;
 }
 
-
 #portfolio-text {
   font-size: 2.5vh;
   margin: 0vh 2vh 5vh 2vh;
@@ -197,6 +196,15 @@ a, button {
   font-family: 'Abel', sans-serif;
   text-align: center;
   margin-bottom: 1vh;
+}
+
+.youtube-vid {
+  height: 30vh;
+  width: 60vw;
+}
+
+.open-youtube {
+  z-index: 5;
 }
 
 #resume-page {

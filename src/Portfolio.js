@@ -25,7 +25,8 @@ function Portfolio() {
       src: 'jones_beach.png',
       width: 1,
       height: 1,
-      id: 'photo'
+      id: 'photo',
+      class: 'rest-of-page'
     }
   ]
 
@@ -34,7 +35,8 @@ function Portfolio() {
       src: 'parents.png',
       width: 1,
       height: 1,
-      id: 'photo'
+      id: 'photo',
+      class: 'rest-of-page'
     }
   ]
 
@@ -43,7 +45,8 @@ function Portfolio() {
       src: 'friends.png',
       width: 1,
       height: 1,
-      id: 'photo'
+      id: 'photo',
+      class: 'rest-of-page'
     }
   ]
 
@@ -67,29 +70,29 @@ function Portfolio() {
             >
               <Slider id='portfolio-slider' className='rest-of-page'>
                 <Slide index={0} className='photo rest-of-page'>
-                  <p className='project-text'>example text example text example text</p>
-                  <div className='links'>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank'>Live Demo</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank'>Github Frontend</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank'>Github Backend</a><br/>
+                  <p className='project-text rest-of-page'>example text example text example text</p>
+                  <div className='links rest-of-page'>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Live Demo</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Frontend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Backend</a><br/>
                   </div>
                   <Gallery photos={photo0} direction="column" className='rest-of-page'/>
                 </Slide>
                 <Slide index={1} className='photo rest-of-page'>
-                  <p className='project-text'>example text example text example text</p>
-                  <div className='links'>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank'>Live Demo</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank'>Github Frontend</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank'>Github Backend</a><br/>
+                  <p className='project-text rest-of-page'>example text example text example text</p>
+                  <div className='links rest-of-page'>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Live Demo</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Frontend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Backend</a><br/>
                   </div>
                   <Gallery photos={photo1} direction='column' className='rest-of-page'/>
                 </Slide>
                 <Slide index={2} className='photo rest-of-page'>
-                  <p className='project-text'>example text example text example text</p>
-                  <div className='links'>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank'>Live Demo</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank'>Github Frontend</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank'>Github Backend</a><br/>
+                  <p className='project-text rest-of-page'>example text example text example text</p>
+                  <div className='links rest-of-page'>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Live Demo</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Frontend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Backend</a><br/>
                   </div>
                   <Gallery photos={photo2} direction='column' className='rest-of-page'/>
                 </Slide>

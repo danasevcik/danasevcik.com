@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Flickity from 'react-flickity-component'
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Dot } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import Gallery from "react-photo-gallery";
@@ -104,7 +103,7 @@ function About() {
   return (
     <div id='about-page' onClick={handleCloseMenu} className='rest-of-page'>
       <div className='flex rest-of-page'>
-        <p id='about-name' className='rest-of-page'>Hi, I'm Dana Sevcik!</p>
+        <p id='about-name' className='rest-of-page'>hi, i'm dana sevcik!</p>
       </div>
       <p id='about-text' className='rest-of-page'>This is a bunch of text that i want on the about page. This is a bunch of text that i want on the about page. This is a bunch of text that i want on the about page. This is a bunch of text that i want on the about page. This is a bunch of text that i want on the about page.</p>
       <div className='ui container rest-of-page'>

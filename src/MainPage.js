@@ -10,7 +10,6 @@ function MainPage() {
 
   const hamburgerMenu = (e) => {
     let menu = document.getElementById('nav')
-    let iconButton = document.getElementById('menu-icon')
     let icon = document.getElementById('icon')
     icon.setAttribute('class', 'content big icon')
     menu.setAttribute('class', 'hide-nav')
@@ -23,7 +22,7 @@ console.log("rendering")
       <div id='main-page' className='rest-of-page'>
         <div id='top-line' className='rest-of-page'></div>
         <div className='flex rest-of-page'>
-          <img src='./headshot_circle.png' id='headshot' className='rest-of-page'/>
+          <img src='./headshot_circle.png' id='headshot' className='rest-of-page' alt='headshot'/>
         </div>
         <p id='name' className='rest-of-page'>hi, i'm dana sevcik!</p>
         <p className='rest-of-page typing'>

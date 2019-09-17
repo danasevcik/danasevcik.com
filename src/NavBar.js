@@ -16,7 +16,7 @@ function NavBar() {
     }
   }
 
-  const {inputs, handleClick} = useHamburgerMenu(hamburgerMenu);
+  const {handleClick} = useHamburgerMenu(hamburgerMenu);
 
   return (
     <div>

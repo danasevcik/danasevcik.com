@@ -1,6 +1,5 @@
-import React, { useEffect, Fragment } from 'react';
+import React, { useEffect } from 'react';
 import useContactForm from './CustomHooks.js';
-import Popup from "reactjs-popup";
 
 function Contact() {
 

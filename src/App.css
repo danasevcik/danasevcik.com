@@ -2,6 +2,10 @@
   height: 100vh;
 }
 
+#app {
+  height: 100vh;
+}
+
 body {
   width: 100vw;
   background-image: url('marble.jpg');
@@ -123,6 +127,7 @@ a, button {
 
 #about-page {
   padding: 5vh;
+  height: 100vh;
 }
 
 #about-name {
@@ -137,6 +142,10 @@ a, button {
   text-align: center;
 }
 
+.photo {
+  border-radius: 0.5em;
+}
+
 #slider {
   margin-bottom: 0vh;
 }
@@ -148,6 +157,7 @@ a, button {
 
 #portfolio-page {
   padding: 5vh;
+  height: 100vh;
 }
 
 #welcome-portfolio {

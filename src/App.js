@@ -26,13 +26,11 @@ function App() {
   const {inputs, handleClick} = useHamburgerMenu(hamburgerMenu);
 
   return (
-    <div>
-      <div>
+    <div id='app'>
         <button id='menu-icon' onClick={handleClick} name='clicked' value={inputs.clicked}>
           <i id='icon' className='content big icon'></i>
         </button>
         <NavBar/>
-      </div>
       <Switch>
         <Route
           path='/about-me'

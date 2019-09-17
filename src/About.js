@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Dot } from 'pure-react-carousel';
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import Gallery from "react-photo-gallery";
 import useHamburgerMenu from './CustomHamburgerHook.js';
@@ -12,7 +12,6 @@ function About() {
 
   const hamburgerMenu = (e) => {
     let menu = document.getElementById('nav')
-    let iconButton = document.getElementById('menu-icon')
     let icon = document.getElementById('icon')
     icon.setAttribute('class', 'content big icon')
     menu.setAttribute('class', 'hide-nav')
@@ -24,7 +23,8 @@ function About() {
     {
       src: 'jones_beach.png',
       width: 1,
-      height: 1
+      height: 1,
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -32,7 +32,8 @@ function About() {
     {
       src: 'parents.png',
       width: 1,
-      height: 1
+      height: 1,
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -40,7 +41,8 @@ function About() {
     {
       src: 'friends.png',
       width: 1,
-      height: 1
+      height: 1,
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -48,7 +50,8 @@ function About() {
     {
       src: 'madison.png',
       width: 1,
-      height: 1
+      height: 1,
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -56,7 +59,8 @@ function About() {
     {
       src: 'bamboo_forest.png',
       width: 1,
-      height: 1
+      height: 1,
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -64,7 +68,8 @@ function About() {
     {
       src: 'hiking.png',
       width: 1,
-      height: 1
+      height: 1,
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -72,7 +77,8 @@ function About() {
     {
       src: 'womens_march.png',
       width: 1,
-      height: 1
+      height: 1,
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -80,7 +86,8 @@ function About() {
     {
       src: 'street_art.png',
       width: 1,
-      height: 1
+      height: 1,
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -88,7 +95,8 @@ function About() {
     {
       src: 'lake_mendota.png',
       width: 1,
-      height: 1
+      height: 1,
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -96,7 +104,8 @@ function About() {
     {
       src: 'lake_chairs.png',
       width: 1,
-      height: 1
+      height: 1,
+      className: 'photo rest-of-page'
     }
   ]
 

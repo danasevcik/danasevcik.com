@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Dot } from 'pure-react-carousel';
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import Gallery from "react-photo-gallery";
 import useHamburgerMenu from './CustomHamburgerHook.js';
@@ -12,7 +12,6 @@ function Portfolio() {
 
   const hamburgerMenu = (e) => {
     let menu = document.getElementById('nav')
-    let iconButton = document.getElementById('menu-icon')
     let icon = document.getElementById('icon')
     icon.setAttribute('class', 'content big icon')
     menu.setAttribute('class', 'hide-nav')
@@ -25,8 +24,7 @@ function Portfolio() {
       src: 'jones_beach.png',
       width: 1,
       height: 1,
-      id: 'photo',
-      class: 'rest-of-page'
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -35,8 +33,7 @@ function Portfolio() {
       src: 'parents.png',
       width: 1,
       height: 1,
-      id: 'photo',
-      class: 'rest-of-page'
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -45,8 +42,7 @@ function Portfolio() {
       src: 'friends.png',
       width: 1,
       height: 1,
-      id: 'photo',
-      class: 'rest-of-page'
+      className: 'photo rest-of-page'
     }
   ]
 
@@ -72,27 +68,27 @@ function Portfolio() {
                 <Slide index={0} className='photo rest-of-page'>
                   <p className='project-text rest-of-page'>example text example text example text</p>
                   <div className='links rest-of-page'>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Live Demo</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Frontend</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Backend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Live Demo</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Frontend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Backend</a><br/>
                   </div>
                   <Gallery photos={photo0} direction="column" className='rest-of-page'/>
                 </Slide>
                 <Slide index={1} className='photo rest-of-page'>
                   <p className='project-text rest-of-page'>example text example text example text</p>
                   <div className='links rest-of-page'>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Live Demo</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Frontend</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Backend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Live Demo</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Frontend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Backend</a><br/>
                   </div>
                   <Gallery photos={photo1} direction='column' className='rest-of-page'/>
                 </Slide>
                 <Slide index={2} className='photo rest-of-page'>
                   <p className='project-text rest-of-page'>example text example text example text</p>
                   <div className='links rest-of-page'>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Live Demo</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Frontend</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' className='rest-of-page'>Github Backend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Live Demo</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Frontend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Backend</a><br/>
                   </div>
                   <Gallery photos={photo2} direction='column' className='rest-of-page'/>
                 </Slide>

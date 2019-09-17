@@ -65,7 +65,19 @@ a, button {
 .menu-link {
   color: black;
   display: block;
-  padding: 2vh;
+  padding: 3vh;
+  font-size: 3vh;
+  font-family: 'Abel', sans-serif;
+}
+
+.menu-link:active {
+  color: black;
+  opacity: 0.8;
+}
+
+.menu-link:active {
+  color: black;
+  opacity: 0.8;
 }
 
 #main-page {

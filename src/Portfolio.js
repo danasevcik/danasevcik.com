@@ -72,33 +72,26 @@ function Portfolio() {
                 <Slide index={0} className='photo rest-of-page'>
                   <p className='project-text rest-of-page'>example text example text example text</p>
                   <div className='links rest-of-page'>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Live Demo</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Frontend</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Backend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Frontend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Backend</a><br/>
                   </div>
-                  <iframe className='rest-of-page youtube-vid'
-                    onClick={() => openNewWindow('https://www.youtube.com/watch?v=GezKCrnQ5iE')}
-                    src="https://giphy.com/embed/ZFQqfxChY68AayJDNo"
-                    frameBorder="0"
-                    >
-                  </iframe>
-
+                  <img className='rest-of-page youtube-vid' src='text-connect.gif' alt='text connect giphy' target='_blank' rel='noopener noreferrer' onClick={() => openNewWindow('https://www.youtube.com/watch?v=GezKCrnQ5iE')}/>
                 </Slide>
                 <Slide index={1} className='photo rest-of-page'>
                   <p className='project-text rest-of-page'>example text example text example text</p>
                   <div className='links rest-of-page'>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Live Demo</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Frontend</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Backend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Live Demo</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Frontend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Backend</a><br/>
                   </div>
                   <Gallery photos={photo1} direction='column' className='rest-of-page'/>
                 </Slide>
                 <Slide index={2} className='photo rest-of-page'>
                   <p className='project-text rest-of-page'>example text example text example text</p>
                   <div className='links rest-of-page'>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Live Demo</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Frontend</a><br/>
-                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel="noopener noreferrer" className='rest-of-page'>Github Backend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Live Demo</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Frontend</a><br/>
+                    <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Backend</a><br/>
                   </div>
                   <Gallery photos={photo2} direction='column' className='rest-of-page'/>
                 </Slide>

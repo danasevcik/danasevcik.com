@@ -50,9 +50,16 @@ body {
 
 #menu-icon {
   z-index: 3;
-  padding-top: 2vh;
-  padding-left: 2vh;
+  padding: 2vh;
   position: fixed;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: inherit;
+}
+
+a, button {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .menu-link {
@@ -138,7 +145,8 @@ body {
 }
 
 #portfolio-carousel {
-  background: white;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 1em;
   padding: 3vw;
   display: flex;
   flex-direction: column;

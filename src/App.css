@@ -124,6 +124,7 @@ body {
 
 #buttons {
   margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 #portfolio-page {
@@ -136,6 +137,20 @@ body {
   margin: 7vh 0vh 3vh 0vh;
 }
 
+#portfolio-carousel {
+  background: white;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#portfolio-slider {
+  margin: 2vw;
+  text-align: center;
+  height: 40vh;
+}
+
+
 #portfolio-text {
   font-size: 2.5vh;
   margin: 0vh 2vh 5vh 2vh;
@@ -146,6 +161,12 @@ body {
 .project-text {
   font-family: 'Abel', sans-serif;
   text-align: center;
+}
+
+.links {
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  margin-bottom: 1vh;
 }
 
 #resume-page {

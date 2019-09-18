@@ -201,10 +201,7 @@ a, button {
 .youtube-vid {
   height: 30vh;
   width: 60vw;
-}
-
-.open-youtube {
-  z-index: 5;
+  cursor: pointer;
 }
 
 #resume-page {

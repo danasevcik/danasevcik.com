@@ -51,12 +51,12 @@ function Portfolio() {
                   <img className='rest-of-page youtube-vid' src='text-connect.gif' alt='text connect giphy' target='_blank' rel='noopener noreferrer' onClick={() => openNewWindow('https://www.youtube.com/watch?v=GezKCrnQ5iE')}/>
                 </Slide>
                 <Slide index={1} className='photo rest-of-page'>
-                  <p className='project-text rest-of-page'>example text example text example text</p>
+                  <p className='project-text rest-of-page'>Normor example text example text example text</p>
                   <div className='links rest-of-page'>
                     <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Frontend</a><br/>
                     <a href='https://www.youtube.com/watch?v=GezKCrnQ5iE' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Backend</a><br/>
                   </div>
-                  <img className='rest-of-page youtube-vid' src='text-connect.gif' alt='text connect giphy' target='_blank' rel='noopener noreferrer' onClick={() => openNewWindow('https://www.youtube.com/watch?v=GezKCrnQ5iE')}/>
+                  <img className='rest-of-page youtube-vid' src='normor.gif' alt='normor giphy' target='_blank' rel='noopener noreferrer' onClick={() => openNewWindow('https://www.youtube.com/watch?v=rTbQzWDsOKw')}/>
                 </Slide>
                 <Slide index={2} className='photo rest-of-page'>
                   <p className='project-text rest-of-page'>example text example text example text</p>

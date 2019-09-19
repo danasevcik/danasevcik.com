@@ -204,10 +204,7 @@ a, button {
   cursor: pointer;
 }
 
-#resume-page {
-  padding: 5vh;
-}
-
 #contact-page {
   padding: 5vh;
+  height: 100vh;
 }

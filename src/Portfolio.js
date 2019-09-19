@@ -64,7 +64,7 @@ function Portfolio() {
                     <a href='https://github.com/danasevcik/trash-tag-frontend' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Frontend</a><br/>
                     <a href='https://github.com/danasevcik/trash-tag-backend' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Backend</a><br/>
                   </div>
-                  <img className='rest-of-page youtube-vid' src='trashtag.gif' alt='text connect giphy' target='_blank' rel='noopener noreferrer' onClick={() => openNewWindow('https://www.youtube.com/watch?v=PD-wkOjpGTQ')}/>
+                  <img className='rest-of-page youtube-vid' src='trashtag.gif' alt='trash tag giphy' target='_blank' rel='noopener noreferrer' onClick={() => openNewWindow('https://www.youtube.com/watch?v=PD-wkOjpGTQ')}/>
                 </Slide>
               </Slider>
 

@@ -30,9 +30,7 @@ function NavBar() {
         <Link to='/portfolio' className='menu-link' onClick={handleClick}>
           Portfolio
         </Link>
-        <Link to='/resume' className='menu-link' onClick={handleClick}>
-          Resume
-        </Link>
+        <a  href='https://drive.google.com/file/d/1dM9iiHF6RDOw5kC2FSUlOXipjbBtl_eN/view' className='menu-link' onClick={handleClick} target='_blank' rel='noopener noreferrer'>Resume</a>
         <Link to='/contact' className='menu-link' onClick={handleClick}>
           Contact
         </Link>

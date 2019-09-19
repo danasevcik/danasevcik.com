@@ -5,7 +5,6 @@ import MainPage from './MainPage.js';
 import About from './About.js';
 import Contact from './Contact.js';
 import Portfolio from './Portfolio.js';
-import Resume from './Resume.js';
 import './App.css';
 import useHamburgerMenu from './CustomHamburgerHook.js';
 
@@ -43,10 +42,6 @@ function App() {
         <Route
           path='/contact'
           render={routerProps => <Contact/>}
-        />
-        <Route
-          path='/resume'
-          render={routerProps => <Resume/>}
         />
         <Route
           path='/'

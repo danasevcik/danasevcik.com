@@ -12,6 +12,7 @@ body {
   height: 100%;
   overflow-x: hidden;
   background-image: url('marble.jpg');
+  background-size: cover;
   background-color: rgb(238,238,240);
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -230,4 +231,55 @@ a, button {
 #contact-page {
   padding: 5vh;
   height: 100vh;
+}
+
+/* iPhone landscape */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
+
+  body {
+    overflow: scroll;
+    background-size: cover;
+  }
+
+  #welcome-portfolio {
+    font-size: 7vw;
+  }
+
+  #portfolio-text {
+    font-size: 3vw;
+  }
+
+  .project-text {
+    font-size: 2vw;
+  }
+
+  .links {
+    font-size: 2vw;
+    margin-bottom: 2vh;
+  }
+
+  #portfolio-slider {
+    height: 80vh;
+  }
+
+  #portfolio-carousel {
+    width: 70vw;
+    padding: 1vw;
+    margin: auto;
+  }
+
+  #project-text {
+    margin-bottom: 0vh;
+  }
+
+  #portfolio-gif {
+    width: 60vw;
+    height: 54vh;
+  }
+
 }

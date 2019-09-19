@@ -43,7 +43,7 @@ function Portfolio() {
             >
               <Slider id='portfolio-slider' className='rest-of-page'>
                 <Slide index={0} className='photo rest-of-page'>
-                  <p className='project-text rest-of-page'>Text Connect example text example text example text</p>
+                  <p className='project-text rest-of-page'>Text Connect is a multilingual chat app that allows users to communicate in over 104 languages by translating received messages to their native language.</p>
                   <div className='links rest-of-page'>
                     <a href='https://github.com/danasevcik/textconnect-frontend' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Frontend</a><br/>
                     <a href='https://github.com/danasevcik/textconnect-backend' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Backend</a><br/>
@@ -51,7 +51,7 @@ function Portfolio() {
                   <img className='rest-of-page youtube-vid' src='text-connect.gif' alt='text connect giphy' target='_blank' rel='noopener noreferrer' onClick={() => openNewWindow('https://www.youtube.com/watch?v=GezKCrnQ5iE')}/>
                 </Slide>
                 <Slide index={1} className='photo rest-of-page'>
-                  <p className='project-text rest-of-page'>Normor example text example text example text</p>
+                  <p className='project-text rest-of-page'>Normor is a community-driven app that allows users to report public issues to city and government officials and ranks these issues by order of importance</p>
                   <div className='links rest-of-page'>
                     <a href='https://github.com/danasevcik/normor/tree/master/frontend' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Frontend</a><br/>
                     <a href='https://github.com/danasevcik/normor/tree/master/backend' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Backend</a><br/>
@@ -59,7 +59,7 @@ function Portfolio() {
                   <img className='rest-of-page youtube-vid' src='normor.gif' alt='normor giphy' target='_blank' rel='noopener noreferrer' onClick={() => openNewWindow('https://www.youtube.com/watch?v=rTbQzWDsOKw')}/>
                 </Slide>
                 <Slide index={2} className='photo rest-of-page'>
-                  <p className='project-text rest-of-page'>Trash Tag example text example text example text</p>
+                  <p className='project-text rest-of-page'>Trash Tag is a meetup app inspired by #TrashTag Challenge, which enables authenticated users to post, view, and finalize cleanup projects. </p>
                   <div className='links rest-of-page'>
                     <a href='https://github.com/danasevcik/trash-tag-frontend' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Frontend</a><br/>
                     <a href='https://github.com/danasevcik/trash-tag-backend' target='_blank' rel='noopener noreferrer' className='rest-of-page'>Github Backend</a><br/>

@@ -5,22 +5,15 @@
 #app {
   height: 100vh;
   width:100vw;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
-html {
-  overflow: hidden;
-  height: 100%;
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
   background-image: url('marble.jpg');
-  background-color: marble;
-  -ms-overflow-style: none;
+  background-color: rgb(238,238,240);
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -192,7 +185,7 @@ a, button {
 #portfolio-slider {
   margin: 2vw;
   text-align: center;
-  height: 40vh;
+  height: 50vh;
 }
 
 #portfolio-text {

@@ -29,7 +29,7 @@ console.log("rendering")
           <Typing className='rest-of-page typing' speed={100}>
             <span>   </span>
             <Typing.Reset count={1}/>
-            <span className='rest-of-page'>software engineer & <br/> proud woman in tech</span>
+            <span className='rest-of-page'>software engineer & proud woman in tech</span>
             <Typing.Delay ms={1000000000}/>
           </Typing>
         </p>

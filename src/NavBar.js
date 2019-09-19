@@ -21,7 +21,7 @@ function NavBar() {
   return (
     <div>
       <div id='nav'>
-        <Link to='/' className='menu-link' onClick={handleClick}>
+        <Link to='/' id='first-menu-link' className='menu-link' onClick={handleClick}>
           Home
         </Link>
         <Link to='/about-me' className='menu-link' onClick={handleClick}>

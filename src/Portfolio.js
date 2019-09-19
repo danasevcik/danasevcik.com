@@ -28,7 +28,7 @@ function Portfolio() {
       <div className='flex rest-of-page'>
         <p id='welcome-portfolio' className='rest-of-page'>welcome to my portfolio!</p>
       </div>
-      <p id='portfolio-text' className='rest-of-page'><a href='/contact'>contact</a> me with any questions!</p>
+      <p id='portfolio-text' className='rest-of-page'><a href='mailto:hello@danasevcik.com'>contact</a> me with any questions!</p>
       <div className='ui container rest-of-page'>
         <div className='ui centered grid rest-of-page'>
           <div className='sixteen wide column rest-of-page'>

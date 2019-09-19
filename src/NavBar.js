@@ -30,10 +30,8 @@ function NavBar() {
         <Link to='/portfolio' className='menu-link' onClick={handleClick}>
           Portfolio
         </Link>
-        <a  href='https://drive.google.com/file/d/1dM9iiHF6RDOw5kC2FSUlOXipjbBtl_eN/view' className='menu-link' onClick={handleClick} target='_blank' rel='noopener noreferrer'>Resume</a>
-        <Link to='/contact' className='menu-link' onClick={handleClick}>
-          Contact
-        </Link>
+        <a href='https://drive.google.com/file/d/1dM9iiHF6RDOw5kC2FSUlOXipjbBtl_eN/view' className='menu-link' onClick={handleClick} target='_blank' rel='noopener noreferrer'>Resume</a>
+        <a href='mailto:hello@danasevcik.com' className='menu-link' onClick={handleClick}>Contact</a>
       </div>
     </div>
   )

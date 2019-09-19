@@ -4,11 +4,26 @@
 
 #app {
   height: 100vh;
+  width:100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
 }
 
 body {
   width: 100vw;
+  height: 100%;
+  overflow: auto;
   background-image: url('marble.jpg');
+  background-color: marble;
+  -ms-overflow-style: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #nav {

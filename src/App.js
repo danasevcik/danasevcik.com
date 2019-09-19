@@ -40,10 +40,6 @@ function App() {
           render={routerProps => <Portfolio/>}
         />
         <Route
-          path='/contact'
-          render={routerProps => <Contact/>}
-        />
-        <Route
           path='/'
           render={routerProps => <MainPage/>}
         />

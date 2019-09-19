@@ -19,11 +19,11 @@ body {
 }
 
 #nav {
-  width: 50vw;
+  width: 80vw;
   height: 100vh;
   background-color: white;
   position: fixed;
-  left: -50vw;
+  left: -80vw;
   top: 0vh;
   padding-top: 5vh;
   z-index: 2;
@@ -41,21 +41,21 @@ body {
 
 @keyframes slide-in {
   0% {
-    left: -50vw;
+    left: -80vw;
   }
   100% {
     left: 0vw;
-    box-shadow: 0vh 2vh 15vh 1vh black;
+    box-shadow: 0vh 2vh 12vh 3vh black;
   }
 }
 
 @keyframes slide-out {
   from {
     left: 0vw;
-    box-shadow: 0vh 2vh 15vh 1vh black;
+    box-shadow: 0vh 2vh 12vh 3vh black;
   }
   to {
-    left: -50vw;
+    left: -80vw;
   }
 }
 
@@ -80,7 +80,7 @@ a, button {
 .menu-link {
   color: black;
   display: block;
-  padding: 3vh;
+  padding: 5vh;
   font-size: 3vh;
   font-family: 'Abel', sans-serif;
 }

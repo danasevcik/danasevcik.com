@@ -22,16 +22,16 @@ function NavBar() {
     <div>
       <div id='nav'>
         <Link to='/' id='first-menu-link' className='menu-link' onClick={handleClick}>
-          Home
+          H o m e
         </Link>
         <Link to='/about-me' className='menu-link' onClick={handleClick}>
-          About
+          A b o u t
         </Link>
         <Link to='/portfolio' className='menu-link' onClick={handleClick}>
-          Portfolio
+          P o r t f o l i o
         </Link>
-        <a href='https://drive.google.com/file/d/1dM9iiHF6RDOw5kC2FSUlOXipjbBtl_eN/view' className='menu-link' onClick={handleClick} target='_blank' rel='noopener noreferrer'>Resume</a>
-        <a href='mailto:hello@danasevcik.com' className='menu-link' onClick={handleClick}>Contact</a>
+        <a href='https://drive.google.com/file/d/1dM9iiHF6RDOw5kC2FSUlOXipjbBtl_eN/view' className='menu-link' onClick={handleClick} target='_blank' rel='noopener noreferrer'>R e s u m e</a>
+        <a href='mailto:hello@danasevcik.com' className='menu-link' onClick={handleClick}>C o n t a c t</a>
       </div>
     </div>
   )

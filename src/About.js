@@ -347,11 +347,12 @@ function About() {
           <div className='sixteen wide column rest-of-page'>
             <CarouselProvider
               className='rest-of-page'
+              id='about-carousel'
               naturalSlideWidth={40}
               naturalSlideHeight={40}
               totalSlides={35}
             >
-              <Slider id='slider' className='rest-of-page'>
+              <Slider id='about-slider' className='rest-of-page'>
                 <Slide index={0} className='rest-of-page'>
                   <Gallery photos={photo0} direction="column" className='rest-of-page'/>
                 </Slide>

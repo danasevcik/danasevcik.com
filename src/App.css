@@ -506,8 +506,14 @@ and (-webkit-device-pixel-ratio: 2){
   #top-line {
     border-top: 0.3vh black solid;
   }
+
   #bottom-line {
     border-top: 0.4vh black solid;
+  }
+
+  #about-text {
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 }
 
@@ -530,6 +536,11 @@ and (orientation : landscape)
 and (-webkit-device-pixel-ratio: 3){
   #bottom-line {
     border-top: 0.3vh black solid;
+  }
+
+  #about-text {
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 }
 
@@ -604,7 +615,7 @@ and (orientation: landscape) {
   }
 
   #bottom-line {
-    border-top: 0.2vh black solid;
+    border-top: 0.3vh black solid;
     border-radius: 3em;
     margin: 7vh 30vh;
   }
@@ -615,6 +626,8 @@ and (orientation: landscape) {
 
   #about-text {
     font-size: 4vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
   .photo {

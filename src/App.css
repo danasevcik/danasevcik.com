@@ -230,12 +230,10 @@ a, button {
 }
 
 /* iPhone 6,7,8 landscape */
-
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : landscape) {
-
   body {
     overflow: scroll;
     background-size: cover;
@@ -362,8 +360,6 @@ and (orientation : landscape) {
     width: 60vw;
     height: 54vh;
   }
-
-
  }
 
 /* iPhone landscape */
@@ -373,7 +369,6 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : landscape) {
-
   body {
     overflow: scroll;
     background-size: cover;
@@ -500,5 +495,181 @@ and (orientation : landscape) {
     width: 60vw;
     height: 54vh;
   }
+}
 
+/* iPhone 5/SE landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-height: 568px)
+and (orientation : landscape)
+and (-webkit-device-pixel-ratio: 2){
+  #top-line {
+    border-top: 0.3vh black solid;
+  }
+  #bottom-line {
+    border-top: 0.4vh black solid;
+  }
+}
+
+/* Galaxy S5 portrait */
+@media only screen
+and (min-device-width: 360px)
+and (max-device-height: 640px)
+and (orientation : portrait)
+and (-webkit-device-pixel-ratio: 3){
+  #top-line {
+    border-top: 0.2vh black solid;
+  }
+}
+
+/* Galaxy S5 landscape */
+@media only screen
+and (min-device-width: 360px)
+and (max-device-height: 640px)
+and (orientation : landscape)
+and (-webkit-device-pixel-ratio: 3){
+  #bottom-line {
+    border-top: 0.3vh black solid;
+  }
+}
+
+/* Google Pixel 2 portrait */
+@media only screen
+and (min-width: 411px)
+and (orientation: portrait) {
+  #top-line {
+    border-top: 0.2vh black solid;
+  }
+}
+
+/* Google Pixel 2 landscape */
+@media only screen
+and (min-width: 731px)
+and (orientation: landscape) {
+  body {
+    overflow: scroll;
+    background-size: cover;
+  }
+
+  #nav {
+    width: 30vw;
+    left: -80vw;
+  }
+
+  @keyframes slide-in {
+    0% {
+      left: -80vw;
+    }
+    100% {
+      left: 0vw;
+      box-shadow: 0vh 2vh 53vh 12vh black;
+    }
+  }
+
+  @keyframes slide-out {
+    from {
+      left: 0vw;
+      box-shadow: 0vh 2vh 53vh 12vh black;
+    }
+    to {
+      left: -80vw;
+    }
+  }
+
+  .show-nav {
+    animation: slide-in 1.5s;
+    animation-fill-mode: forwards;
+  }
+
+  .hide-nav {
+    animation: slide-out 1.5s;
+    animation-fill-mode: forwards;
+  }
+
+  .menu-link {
+    font-size: 4vh;
+  }
+
+  #top-line {
+    border-top: 0.2vh black solid;
+    margin: 8vh 40vh;
+  }
+
+  #name {
+    font-size: 8vh;
+  }
+
+  .typing {
+    font-size: 5vh;
+  }
+
+  #bottom-line {
+    border-top: 0.2vh black solid;
+    border-radius: 3em;
+    margin: 7vh 30vh;
+  }
+
+  #about-name {
+    font-size: 10vh;
+  }
+
+  #about-text {
+    font-size: 4vh;
+  }
+
+  .photo {
+    height: 70vh;
+  }
+
+  #about-slider {
+    height: 75vh;
+    margin: auto;
+  }
+
+  #about-carousel {
+    width: 40vw;
+    padding: 1vw;
+    margin: auto;
+  }
+
+  #message-me-text {
+    margin-top: 2vh;
+    font-size: 5vh;
+  }
+
+  #welcome-portfolio {
+    font-size: 7vw;
+  }
+
+  #portfolio-text {
+    font-size: 3vw;
+  }
+
+  .project-text {
+    font-size: 2vw;
+  }
+
+  .links {
+    font-size: 2vw;
+    margin-bottom: 2vh;
+  }
+
+  #portfolio-slider {
+    height: 80vh;
+  }
+
+  #portfolio-carousel {
+    width: 70vw;
+    padding: 1vw;
+    margin: auto;
+  }
+
+  #project-text {
+    margin-bottom: 0vh;
+  }
+
+  #portfolio-gif {
+    width: 60vw;
+    height: 54vh;
+  }
 }

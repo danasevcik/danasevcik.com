@@ -759,7 +759,7 @@ and (orientation: landscape) {
     border-radius: 3em;
     margin: 7vh 30vh;
   }
-  
+
   #about-name {
     font-size: 10vh;
   }
@@ -1116,5 +1116,159 @@ and (orientation: landscape) {
 
   #buttons {
     margin-top: 0vh;
+  }
+}
+
+/* iPad pro landscape  */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  body {
+    overflow: scroll;
+    background-size: cover;
+  }
+
+  #nav {
+    width: 50vw;
+    left: -80vw;
+  }
+
+  @keyframes slide-in {
+    0% {
+      left: -80vw;
+    }
+    100% {
+      left: 0vw;
+      box-shadow: 0vh 2vh 53vh 12vh black;
+    }
+  }
+
+  @keyframes slide-out {
+    from {
+      left: 0vw;
+      box-shadow: 0vh 2vh 53vh 12vh black;
+    }
+    to {
+      left: -80vw;
+    }
+  }
+
+  .show-nav {
+    animation: slide-in 1s;
+    animation-fill-mode: forwards;
+  }
+
+  .hide-nav {
+    animation: slide-out 1s;
+    animation-fill-mode: forwards;
+  }
+
+  .menu-link {
+    font-size: 5vh;
+  }
+
+  #menu-icon {
+    padding: 3vh;
+    font-size: 3vh;
+  }
+
+  #top-line {
+    border-top: 0.2vh black solid;
+    margin: 8vh 10vh;
+  }
+
+  #headshot {
+    height: 38vh;
+  }
+
+  #name {
+    font-size: 9vh;
+  }
+
+  .typing {
+    font-size: 4.5vh;
+  }
+
+  #bottom-line {
+    border-top: 0.2vh black solid;
+    margin: 8vh 10vh;
+  }
+
+  #about-name {
+    font-size: 9vh;
+  }
+
+  #about-text {
+    font-size: 3.5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .photo {
+    height: 68vh;
+    width: 51vw;
+  }
+
+  #about-slider {
+    height: 69vh;
+    margin: auto;
+  }
+
+  #about-carousel {
+    width: 52vw;
+    margin: auto;
+  }
+
+  #message-me-text {
+    margin-top: 2vh;
+    font-size: 4vh;
+  }
+
+  #welcome-portfolio {
+    font-size: 8vw;
+  }
+
+  #portfolio-text {
+    font-size: 4vw;
+  }
+
+  .project-text {
+    font-size: 3vw;
+  }
+
+  .links {
+    margin: 2vh;
+  }
+
+  .github {
+    font-size: 2.5vw;
+    margin-top: 5vh;
+    padding-top: 2vh;
+  }
+
+  #portfolio-slider {
+    height: 83vh;
+  }
+
+  #portfolio-carousel {
+    width: 75vw;
+    padding: 1vw;
+    margin: auto;
+  }
+
+  #project-text {
+    margin-bottom: 0vh;
+  }
+
+  #portfolio-gif {
+    width: 70vw;
+    height: 50vh;
+  }
+
+  #buttons {
+    margin-top: 0vh;
+    height: 5vh;
   }
 }

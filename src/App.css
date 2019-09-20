@@ -686,3 +686,142 @@ and (orientation: landscape) {
     height: 54vh;
   }
 }
+
+/* iPad portrait */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  body {
+    overflow: scroll;
+    background-size: cover;
+  }
+
+  #nav {
+    width: 60vw;
+    left: -80vw;
+  }
+
+  @keyframes slide-in {
+    0% {
+      left: -80vw;
+    }
+    100% {
+      left: 0vw;
+      box-shadow: 0vh 2vh 53vh 12vh black;
+    }
+  }
+
+  @keyframes slide-out {
+    from {
+      left: 0vw;
+      box-shadow: 0vh 2vh 53vh 12vh black;
+    }
+    to {
+      left: -80vw;
+    }
+  }
+
+  .show-nav {
+    animation: slide-in 1s;
+    animation-fill-mode: forwards;
+  }
+
+  .hide-nav {
+    animation: slide-out 1s;
+    animation-fill-mode: forwards;
+  }
+
+  .menu-link {
+    font-size: 4vh;
+  }
+
+  #menu-icon {
+    padding: 3vh;
+    font-size: 2.5vh;
+  }
+
+  #name {
+    font-size: 8vh;
+  }
+
+  .typing {
+    font-size: 4vh;
+  }
+
+  #about-name {
+    font-size: 8vh;
+  }
+
+  #about-text {
+    font-size: 2.5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .photo {
+    height: 42vh;
+    width: 48vw;
+  }
+
+  #about-slider {
+    height: 43vh;
+    margin: auto;
+  }
+
+  #about-carousel {
+    width: 50vw;
+    margin: auto;
+  }
+
+  #message-me-text {
+    margin-top: 2vh;
+    font-size: 4vh;
+  }
+
+  #welcome-portfolio {
+    font-size: 9vw;
+  }
+
+  #portfolio-text {
+    font-size: 5vw;
+  }
+
+  .project-text {
+    font-size: 3vw;
+  }
+
+  .links {
+    margin: 2vh;
+  }
+
+  .github {
+    font-size: 3.5vw;
+    margin-top: 5vh;
+    padding-top: 2vh;
+  }
+
+  #portfolio-slider {
+    height: 65vh;
+  }
+
+  #portfolio-carousel {
+    width: 75vw;
+    padding: 1vw;
+    margin: auto;
+  }
+
+  #project-text {
+    margin-bottom: 0vh;
+  }
+
+  #portfolio-gif {
+    width: 70vw;
+    height: 45vh;
+  }
+
+  #buttons {
+    margin-top: 0vh;
+  }
+}

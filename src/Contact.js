@@ -7,7 +7,7 @@ function Contact() {
     setTimeout(() => clearForm(), 1000)
   }
 
-  const {inputs, handleInputChange, handleSubmit, clearForm} = useContactForm(sendEmail);
+  const {inputs, handleInputChange, handleSubmit, clearForm} = useContactForm(sendEmail);  
 
   useEffect(() => {
     document.title = 'Contact - Dana Sevcik';

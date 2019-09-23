@@ -24,14 +24,14 @@ function NavBar() {
         <Link to='/' id='first-menu-link' className='menu-link' onClick={handleClick}>
           H o m e
         </Link>
-        <Link to='/about-me' className='menu-link' onClick={handleClick}>
+        <Link to='/about-me' className='menu-link' id='about-link' onClick={handleClick}>
           A b o u t
         </Link>
-        <Link to='/portfolio' className='menu-link' onClick={handleClick}>
+        <Link to='/portfolio' className='menu-link' id='portfolio-link' onClick={handleClick}>
           P o r t f o l i o
         </Link>
-        <a href='https://drive.google.com/file/d/1dM9iiHF6RDOw5kC2FSUlOXipjbBtl_eN/view' className='menu-link' onClick={handleClick} target='_blank' rel='noopener noreferrer'>R e s u m e</a>
-        <a href='mailto:hello@danasevcik.com' className='menu-link' onClick={handleClick}>C o n t a c t</a>
+        <a href='https://drive.google.com/file/d/1dM9iiHF6RDOw5kC2FSUlOXipjbBtl_eN/view' className='menu-link' id='resume-link' onClick={handleClick} target='_blank' rel='noopener noreferrer'>R e s u m e</a>
+        <a href='mailto:hello@danasevcik.com' className='menu-link' id='contact-link' onClick={handleClick}>C o n t a c t</a>
       </div>
     </div>
   )

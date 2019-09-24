@@ -1,4 +1,4 @@
-# Portfolio
+# Dana Sevcik - Portfolio
 
 Welcome to my portfolio website!
 
@@ -11,7 +11,7 @@ I built my portfolio website to introduce myself and showcase my technical proje
 ## Demo
 ![demo gif](https://media.giphy.com/media/l36rBMUc1x9eL1eD1b/giphy.gif)
 
-You can visit my website [here](www.danasevcik.com).
+You can visit my website [here](https://www.danasevcik.com/).
 
 ## Technology Used
 This project was built using React. Additional technologies used include:
@@ -40,7 +40,7 @@ Users are able to:
 * Visit the website on any major device
 
 ## How to Use
-Users can visit the working version of my portfolio [here](www.danasevcik.com).
+Users can visit the working version of my portfolio [here](https://www.danasevcik.com/).
 If users prefer to test on their machine:
 1. Clone this respository 
 2. Run ```npm start``` to start the server

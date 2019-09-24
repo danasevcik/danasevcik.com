@@ -16,7 +16,7 @@ function MainPage() {
   }
 
   const { handleCloseMenu } = useHamburgerMenu(hamburgerMenu);
-console.log("rendering")
+
   return (
     <div onClick={handleCloseMenu} className='rest-of-page'>
       <div id='main-page' className='rest-of-page'>
@@ -37,15 +37,6 @@ console.log("rendering")
       </div>
     </div>
   )
-  // <span>   </span>
-  // <Typing.Reset count={1}/>
-  // <span className='rest-of-page'>Software Engineer</span>
-  // <Typing.Backspace count={17} delay={3000} />
-  // <Typing.Reset count={17}/>
-  // <Typing.Delay ms={2000}/>
-  // <span className='rest-of-page'>Proud Woman In Tech</span>
-  // <Typing.Delay ms={100000000000}/>
-
 }
 
 export default MainPage;

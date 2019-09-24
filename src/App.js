@@ -3,7 +3,6 @@ import { Route, Switch, withRouter } from "react-router-dom";
 import NavBar from './NavBar.js';
 import MainPage from './MainPage.js';
 import About from './About.js';
-import Contact from './Contact.js';
 import Portfolio from './Portfolio.js';
 import './App.css';
 import useHamburgerMenu from './CustomHamburgerHook.js';

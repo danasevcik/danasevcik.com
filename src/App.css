@@ -938,8 +938,6 @@ and (orientation: portrait) {
 
   .github {
     font-size: 3.5vw;
-    margin-top: 5vh;
-    padding-top: 2vh;
   }
 
   #portfolio-slider {
@@ -1091,8 +1089,6 @@ and (orientation: landscape) {
 
   .github {
     font-size: 3vw;
-    margin-top: 5vh;
-    padding-top: 2vh;
   }
 
   #portfolio-slider {
@@ -1244,8 +1240,6 @@ and (orientation: landscape) {
 
   .github {
     font-size: 2.5vw;
-    margin-top: 5vh;
-    padding-top: 2vh;
   }
 
   #portfolio-slider {
@@ -1416,8 +1410,6 @@ and (min-device-width: 1024px) {
 
   .github {
     font-size: 1.5vw;
-    margin-top: 5vh;
-    padding-top: 2vh;
   }
 
   #portfolio-slider {
@@ -1437,7 +1429,6 @@ and (min-device-width: 1024px) {
   #portfolio-gif {
     width: 70vw;
     height: 65vh;
-    border-radius: 1em;
   }
 
   #buttons {

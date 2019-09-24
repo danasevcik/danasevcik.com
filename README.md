@@ -1,7 +1,6 @@
-# Dana Sevcik - Portfolio
+# Dana Sevcik - Portfolio Website
 
 Welcome to my portfolio website!
-
 ![wave](https://media.giphy.com/media/Wj7lNjMNDxSmc/giphy-downsized.gif)
 
 ## Motivation

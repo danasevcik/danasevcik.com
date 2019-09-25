@@ -98,6 +98,12 @@ a, button {
   font-weight: bold;
 }
 
+.menu-link:hover {
+  color: black;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
 #main-page {
   padding: 5vh;
   height: 100vh;
@@ -278,6 +284,24 @@ and (orientation : landscape) {
     font-size: 4vh;
   }
 
+  .menu-link:hover {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:active {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:visited {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
   #top-line {
     border-top: 0.2vh black solid;
     margin: 8vh 40vh;
@@ -411,6 +435,24 @@ and (orientation : landscape) {
 
   .menu-link {
     font-size: 4vh;
+  }
+
+  .menu-link:hover {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:active {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:visited {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
   }
 
   #top-line {
@@ -606,6 +648,24 @@ and (orientation: landscape) {
     font-size: 4vh;
   }
 
+  .menu-link:hover {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:active {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:visited {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
   #top-line {
     border-top: 0.2vh black solid;
     margin: 8vh 40vh;
@@ -739,6 +799,24 @@ and (orientation: landscape) {
 
   .menu-link {
     font-size: 4vh;
+  }
+
+  .menu-link:hover {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:active {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:visited {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
   }
 
   #top-line {
@@ -877,6 +955,24 @@ and (orientation: portrait) {
     font-size: 4vh;
   }
 
+  .menu-link:hover {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:active {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:visited {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
   #menu-icon {
     padding: 3vh;
     font-size: 2.5vh;
@@ -1012,6 +1108,24 @@ and (orientation: landscape) {
 
   .menu-link {
     font-size: 5vh;
+  }
+
+  .menu-link:hover {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:active {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:visited {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
   }
 
   #menu-icon {
@@ -1163,6 +1277,24 @@ and (orientation: landscape) {
 
   .menu-link {
     font-size: 5vh;
+  }
+
+  .menu-link:hover {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:active {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .menu-link:visited {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
   }
 
   #menu-icon {

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { CarouselProvider, Slider, Slide } from 'pure-react-carousel';
+import { CarouselProvider, Slider, Slide, ButtonNext, ButtonBack } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import Gallery from "react-photo-gallery";
 import useHamburgerMenu from './CustomHamburgerHook.js';
@@ -102,7 +102,7 @@ function About() {
 
   const photo9 = [
     {
-      src: 'lake_chairs.png',
+      src: '621.png',
       width: 1,
       height: 1,
       className: 'photo rest-of-page'
@@ -111,7 +111,7 @@ function About() {
 
   const photo10 = [
     {
-      src: 'pontoon.png',
+      src: 'farmers_market.png',
       width: 1,
       height: 1,
       className: 'photo rest-of-page'
@@ -129,7 +129,7 @@ function About() {
 
   const photo12 = [
     {
-      src: 'farmers_market.png',
+      src: 'lake_chairs.png',
       width: 1,
       height: 1,
       className: 'photo rest-of-page'
@@ -165,7 +165,7 @@ function About() {
 
   const photo16 = [
     {
-      src: 'oliver.png',
+      src: 'cohort.png',
       width: 1,
       height: 1,
       className: 'photo rest-of-page'
@@ -183,7 +183,7 @@ function About() {
 
   const photo18 = [
     {
-      src: 'long_beach.png',
+      src: 'rach_nicole.png',
       width: 1,
       height: 1,
       className: 'photo rest-of-page'
@@ -192,7 +192,7 @@ function About() {
 
   const photo19 = [
     {
-      src: 'kk.png',
+      src: 'bali.png',
       width: 1,
       height: 1,
       className: 'photo rest-of-page'
@@ -309,24 +309,6 @@ function About() {
 
   const photo32 = [
     {
-      src: 'cohort.png',
-      width: 1,
-      height: 1,
-      className: 'photo rest-of-page'
-    }
-  ]
-
-  const photo33 = [
-    {
-      src: 'bali.png',
-      width: 1,
-      height: 1,
-      className: 'photo rest-of-page'
-    }
-  ]
-
-  const photo34 = [
-    {
       src: 'brooklyn_bowl.png',
       width: 1,
       height: 1,
@@ -350,7 +332,7 @@ function About() {
               id='about-carousel'
               naturalSlideWidth={40}
               naturalSlideHeight={40}
-              totalSlides={35}
+              totalSlides={33}
             >
               <Slider id='about-slider' className='rest-of-page'>
                 <Slide index={0} className='rest-of-page'>
@@ -452,14 +434,13 @@ function About() {
                 <Slide index={32} className='rest-of-page'>
                   <Gallery photos={photo32} direction='column' className='rest-of-page'/>
                 </Slide>
-                <Slide index={33} className='rest-of-page'>
-                  <Gallery photos={photo33} direction='column' className='rest-of-page'/>
-                </Slide>
-                <Slide index={34} className='rest-of-page'>
-                  <Gallery photos={photo34} direction='column' className='rest-of-page'/>
-                </Slide>
               </Slider>
-
+              {window.innerWidth > 1024 &&
+                (<div className="ui centered grid rest-of-page" id='buttons'>
+                  <ButtonBack className="ui black basic tiny icon button rest-of-page">Back</ButtonBack>
+                  <ButtonNext className="ui black basic tiny icon button rest-of-page">Next</ButtonNext>
+                </div>)
+              }
             </CarouselProvider>
           </div>
         </div>

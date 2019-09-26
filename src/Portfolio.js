@@ -6,7 +6,7 @@ import useHamburgerMenu from './CustomHamburgerHook.js';
 function Portfolio() {
 
   useEffect(() => {
-    document.title = 'Portfolio - Dana Sevcik';
+    document.title = 'Dana Sevcik - Portfolio';
   });
 
   const hamburgerMenu = (e) => {

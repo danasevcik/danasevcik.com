@@ -66,8 +66,8 @@ function Portfolio() {
               </Slider>
 
               <div className="ui centered grid rest-of-page" id='buttons'>
-                <ButtonBack className="ui black basic tiny icon button rest-of-page">Back</ButtonBack>
-                <ButtonNext className="ui black basic tiny icon button rest-of-page">Next</ButtonNext>
+                <ButtonBack aria-label='back' className="ui black basic tiny icon button rest-of-page">Back</ButtonBack>
+                <ButtonNext aria-label='next' className="ui black basic tiny icon button rest-of-page">Next</ButtonNext>
               </div>
             </CarouselProvider>
           </div>

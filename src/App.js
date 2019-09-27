@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div id='app'>
-        <button id='menu-icon' onClick={handleClick} name='clicked' value={inputs.clicked}>
+        <button aria-label='menu' id='menu-icon' onClick={handleClick} name='clicked' value={inputs.clicked}>
           <i id='icon' className='content big icon'></i>
         </button>
         <NavBar/>

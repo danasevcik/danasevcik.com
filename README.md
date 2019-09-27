@@ -18,6 +18,7 @@ This project was built using React. Additional technologies used include:
 * Google Domains
 * AWS Route 53
 * AWS CloudFront
+* SSL Certificate
 * React Hooks
 * React Routes
 * React Typing Animations

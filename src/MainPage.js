@@ -5,7 +5,7 @@ import useHamburgerMenu from './CustomHamburgerHook.js';
 function MainPage() {
 
   useEffect(() => {
-    document.title = 'Dana! Sevcik';
+    document.title = 'Dana Sevcik';
   });
 
   const hamburgerMenu = (e) => {

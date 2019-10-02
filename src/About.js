@@ -445,7 +445,7 @@ function About() {
           </div>
         </div>
       </div>
-      <p id='message-me-text' className='rest-of-page'><a href='mailto:hello@danasevcik.com'>contact</a> me with any questions!</p>
+      <p id='message-me-text' className='rest-of-page'><a href='mailto:danarsevcik@gmail.com'>contact</a> me with any questions!</p>
     </div>
   )
 }

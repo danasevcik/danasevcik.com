@@ -21,7 +21,7 @@ This project was built using React. Additional technologies used include:
 * SSL Certificate
 * CI/CD Pipeline (Travis)
 * React Hooks
-* React Routes
+* React Router
 * React Typing Animations
 * Pure React Carousel
 * React Photo Gallery

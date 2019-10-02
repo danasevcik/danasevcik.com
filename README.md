@@ -19,7 +19,7 @@ This project was built using React. Additional technologies used include:
 * AWS Route 53
 * AWS CloudFront
 * SSL Certificate
-* Travis CI Pipeline
+* CI/CD Pipeline (Travis)
 * React Hooks
 * React Routes
 * React Typing Animations

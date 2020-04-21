@@ -44,7 +44,8 @@ Users are able to:
 Users can visit the working version of my portfolio [here](https://www.danasevcik.com/).
 If users prefer to test on their machine:
 1. Clone this respository 
-2. Run ```npm start``` to start the server
+2. Run ```npm install``` 
+3. Run ```npm start``` to start the server
 
 ![smiley face gif](https://media.giphy.com/media/xTiN0E03sgnvms9Uli/giphy.gif)
 

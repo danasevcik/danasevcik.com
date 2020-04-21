@@ -166,6 +166,7 @@ a, button {
 
 .photo {
   border-radius: 0.5em;
+  object-fit: cover;
 }
 
 #message-me-text {
@@ -331,6 +332,7 @@ and (orientation : landscape) {
 
   .photo {
     height: 70vh;
+    object-fit: cover;
   }
 
   #about-slider {
@@ -484,6 +486,7 @@ and (orientation : landscape) {
 
   .photo {
     height: 70vh;
+    object-fit: cover;
   }
 
   #about-slider {
@@ -697,6 +700,7 @@ and (orientation: landscape) {
 
   .photo {
     height: 70vh;
+    object-fit: cover;
   }
 
   #about-slider {
@@ -850,6 +854,7 @@ and (orientation: landscape) {
 
   .photo {
     height: 70vh;
+    object-fit: cover;
   }
 
   #about-slider {
@@ -999,6 +1004,7 @@ and (orientation: portrait) {
   .photo {
     height: 42vh;
     width: 48vw;
+    object-fit: cover;
   }
 
   #about-slider {
@@ -1168,6 +1174,7 @@ and (orientation: landscape) {
   .photo {
     height: 68vh;
     width: 49vw;
+    object-fit: cover;
   }
 
   #about-slider {
@@ -1337,6 +1344,7 @@ and (orientation: landscape) {
   .photo {
     height: 68vh;
     width: 51vw;
+    object-fit: cover;
   }
 
   #about-slider {
@@ -1507,6 +1515,7 @@ and (min-device-width: 1024px) {
   .photo {
     height: 78vh;
     width: 45vw;
+    object-fit: cover;
   }
 
   #about-slider {

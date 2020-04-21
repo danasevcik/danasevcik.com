@@ -322,7 +322,12 @@ function About() {
         <p id='about-name' className='rest-of-page'>hi, i'm dana sevcik!</p>
       </div>
       <p id='about-text' className='rest-of-page'>
-        I'm an open minded and curoius fullstack software engineer - I love to learn and love to build. With a background in Environmental Science and Entrepreneurship, I landed at Flatiron School in New York City after a fortunate series of events. I am currently teaching at Flatiron School as a Software Engineering Coach. Swipe below to see some photos of people, places and things that I love!
+        I'm an open minded and curoius Fullstack Software Engineer - I love to learn and love to build. 
+        With a background in Environmental Science and Entrepreneurship, 
+        I landed at Flatiron School in New York City after a fortunate series of events. 
+        I was hired as a Software Engineering Coach at Flatiron School upon graduation where I taught coding bootcamp students.
+        Currently, I'm working as a Software Engineer at Hunterz.io on a number of interesting and challenging projects.
+        Swipe below to see some photos of people, places and things that I love!
       </p>
       <div className='ui container rest-of-page'>
         <div className='ui centered grid rest-of-page'>
